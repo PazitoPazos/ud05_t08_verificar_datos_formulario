@@ -16,7 +16,7 @@
 
     $contrasinal=htmlspecialchars(trim(strip_tags($_REQUEST['contrasinal'])),ENT_QUOTES, "ISO-8859-1");
     if ($contrasinal == "")
-        print "<p>O campo nome completo está baleiro.</p>";
+        print "<p>O campo nome contrasinal está baleiro.</p>";
     else
         print "<p>O valor recibido do campo contrasinal é: $contrasinal</p>";
     
